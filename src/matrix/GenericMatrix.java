@@ -1,7 +1,6 @@
 package matrix;
 
 public abstract class GenericMatrix<E extends Number> {
-
     /**
      * Metoda abstracta pentru adunarea a doua elemente ale matricelor
      */
@@ -85,4 +84,3 @@ public abstract class GenericMatrix<E extends Number> {
         }
     }
 }
-
