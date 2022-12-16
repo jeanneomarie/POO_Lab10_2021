@@ -4,9 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class MapDemo {
-
     public static void main(String[] args) {
-
         Map<Integer, String> map = new HashMap<>();
         //HashMap<Integer, String> map = new HashMap<>();
 
@@ -14,7 +12,6 @@ public class MapDemo {
         map.put(1,"POO");
         map.put(2,"BD");
         map.put(3,"AF");
-
         System.out.println(map);
 
         // stergere
@@ -41,7 +38,5 @@ public class MapDemo {
         for(int key: map.keySet()) {
             System.out.println(key);
         }
-
     }
-
 }
