@@ -6,9 +6,7 @@ import java.util.Iterator;
 import java.util.List;
 
 public class Main {
-
     public static void main(String[] args) {
-
         Person person1 = new Person("Ioana",23,5);
         Person person2 = new Person("Mihai",31,2);
         Person person3 = new Person("Anca",7,18);
@@ -31,8 +29,8 @@ public class Main {
         System.out.println("After Sort using Comparable");
         for(Person person : persons) {
             System.out.println(person.getName() + " " + person.getAge() + " " + person.getCnp());
-        }
-*/
+        }*/
+
         System.out.println("COMPARARE FOLOSIND CNP");
         System.out.println("Before Sort using Comparator");
         for(Person person : persons) {
@@ -50,11 +48,10 @@ public class Main {
         }
 
         // afisare folosind un Iterator
-        /*Iterator<Person> it = persons.iterator();
+        Iterator<Person> it = persons.iterator();
         while (it.hasNext()) {
             Person aPerson = it.next(); // No downcast.
             System.out.println(aPerson);
-        }*/
-
+        }
     }
 }
