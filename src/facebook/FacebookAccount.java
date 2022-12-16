@@ -68,5 +68,4 @@ public class FacebookAccount {
     public void setPrieteni(List<FacebookAccount> prieteni) {
         this.prieteni = prieteni;
     }
-
 }
