@@ -1,7 +1,6 @@
 package facebook;
 
 public class Main {
-
     public static void main(String[] args) {
         FacebookAccount account1 = new FacebookAccount("Andreea", 19, "Turda");
         FacebookAccount account2 = new FacebookAccount("Maria", 20, "Cluj");
@@ -26,6 +25,5 @@ public class Main {
         String locatie = "Turda";
         System.out.println("Prietenii din " + locatie + " al userului " + account1.getNume() + " sunt:");
         account1.afisarePrieteniLocatie(locatie);
-
     }
 }
